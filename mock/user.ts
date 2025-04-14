@@ -6,7 +6,7 @@ export default [
     method: 'post',
     response: ({ body }) => {
       const { username, password } = body
-      if (username === 'admin' && password === 'admin') {
+      if (username === '15271158347' && password === '15271158347') {
         return {
           code: 200,
           message: '登录成功',
